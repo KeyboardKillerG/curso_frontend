@@ -1,26 +1,7 @@
-.firstinfo, body {
+.firstinfo {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  width: 100%;
-  min-height: 100%;
-  font-family: arial;
-  font-size: 16px;
-  overflow: hidden;
-    /* The image used */
-  background-image: url("img/bg2.jpg");
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .content {
@@ -38,7 +19,7 @@ body {
 }
 
 .profileinfo {
-	background-color: white;
+  background-color: white;
 
 }
 .firstinfo {
@@ -60,8 +41,5 @@ body {
 }
 
 h3{
-	color: #6F406D;
+  color: #6F406D;
 }
- li {
- 	list-style-type: none;
- }
