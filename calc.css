@@ -6,7 +6,7 @@ body {
 	font-weight: bold;
 }
 
-input {
+.screen {
 	width: 100%;
 	background-color: #181f32;
 	border: 0;
@@ -30,8 +30,19 @@ button:active{
 	transform: translateY(4px);
 }
 
-button:hover {
- 	#transform: translateX(4px);
+.btn-regular:hover {
+	background-color: #cfc4bb;
+	box-shadow: 0 6px #B39A85;	
+}
+
+.btn-blue:hover {
+	background-color: #4F5D83;
+	box-shadow: 0 6px #42517A;
+}
+
+.btn-red:hover {
+	background-color: #B93628;
+	box-shadow: 0 6px #9d271b;
 }
 
 .btn-regular {
@@ -71,10 +82,22 @@ button:hover {
 }
 
 .switch-box {
-	display: flex;
-	width: 15%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: center;
+	margin-left: 5px;
+	align-self: center;
+	grid-gap: 3px;
 }
 
+.switch-box * {
+	padding: 0;
+	margin: 0px;
+} 
+
+.theme {
+	display: flex;
+}
 
 
 
