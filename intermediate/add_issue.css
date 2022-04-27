@@ -1,0 +1,82 @@
+.main-box{
+	background-color: white;
+	border-radius: var(--space-unit);
+	display: flex;
+	flex-direction: column;
+	padding: calc(var(--space-unit) * 3);
+	color: var(--dark-color);
+	position: relative;
+	margin-top: calc(var(--space-unit) * 10);
+}
+
+.main-box > img {
+	background-image: var(--main-gradiente);
+	width: calc(var(--space-unit) * 6);
+	border-radius: 100%;
+	padding: calc(var(--space-unit) * 1.5);
+	position: absolute;
+	top: calc(var(--space-unit) * -3);
+}
+
+.main-box > input, select {
+	background-color: var(--bg-tag-color);
+	border-radius: var(--space-unit);
+	border: none;
+	padding: var(--space-unit);
+	margin-top: calc(var(--space-unit) * 2);
+	color: var(--dark-color);
+}
+
+.main-box > h5 {
+	margin-top: calc(var(--space-unit) * 2);
+}
+
+.main-box > label {
+	font-size: 12px;
+}
+
+.main-box > h2 {
+	margin-bottom: calc(var(--space-unit) * 4);
+	margin-top: calc(var(--space-unit) * 4);
+}
+
+.btn {
+  border-radius: calc(var(--space-unit) * .5);
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: calc(var(--space-unit) * .5) var(--space-unit);
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+  text-decoration: none;
+  font-size: var(--text-sm);
+}
+
+.btn-primary {
+	background-color: var(--doing-color);
+}
+
+.btn-secondary {
+	background-color: var(--dark-color);
+}
+
+.btn-danger {
+	background-color: var(--warning-color);
+}
+
+.actions-box {
+	display: flex;
+	justify-content: end;
+	margin-top: calc(var(--space-unit) * 2);
+	column-gap: 8px;
+}
+
+.actions-box > .btn-danger {
+	margin-right: auto;
+}
+
+#go-back {
+	color: darkgray;
+	font-weight: bold;
+	text-decoration: none;
+}
