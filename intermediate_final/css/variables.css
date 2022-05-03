@@ -1,0 +1,10 @@
+:root{
+	/*Color Palette*/
+	--dark-color: #061826;
+	--primary-color:  #0471A6;
+	--primary-light: #3685B5;
+	--secondary-color:  #89AAE6;
+	--alternate-color:  #AC80A0;
+	/*Units*/
+	--space-unit:  8px;
+}
